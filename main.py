@@ -30,7 +30,6 @@ logger = logging.getLogger(__name__)
 
 # get token using BotFather
 TOKEN = os.getenv('TG_TOKEN')
-print(TOKEN)
 
 
 def main() -> None:
